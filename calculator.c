@@ -4,11 +4,16 @@
 
 int main(void)
 {
-    int counter = 0;
-    printf("i is: %i\n", counter);
-    while (counter < 3)
-    {
-        printf("i equals to: %i\n", counter);
-        counter ++;        
-    }
+    // Prompt for x
+    float x = get_float("x: ");
+
+    // Prompt for y
+    float y = get_float("y: ");
+
+    // Devide x by y
+    float z = x / y;
+
+    // perform addition
+    printf("%f\n", z);
+
 }
